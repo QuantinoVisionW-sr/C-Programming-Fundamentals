@@ -1,0 +1,23 @@
+
+// eligible for vote or note 
+
+#include <stdio.h>
+#include <conio.h>
+
+int main (){
+    int age ;
+    printf("Enter your age : ");
+    scanf("%d",&age);
+
+    if (age >= 18){
+        printf("oh yeah , You are eligible to vote : ");
+
+
+    }
+    else{
+        printf("You are not eligible to vote :");
+    }
+   
+    return 0;
+
+}
